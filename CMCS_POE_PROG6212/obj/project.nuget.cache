@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "MOapZuQ2iwY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sandi\\source\\repos\\CMCS_POE_PROG6212\\CMCS_POE_PROG6212\\CMCS_POE_PROG6212.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sandi\\.nuget\\packages\\microsoft.data.sqlite\\9.0.0\\microsoft.data.sqlite.9.0.0.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0\\microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.10\\sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\sqlitepclraw.core\\2.1.10\\sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.10\\sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.1.10\\sqlitepclraw.provider.dynamic_cdecl.2.1.10.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\sandi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sandi\\source\\repos\\CMCS_POE_PROG6212\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32E2CC17-E5F1-4EEF-9895-C1E0B34CDEFF}|CMCS_POE_PROG6212\\CMCS_POE_PROG6212.csproj|c:\\users\\sandi\\source\\repos\\cmcs_poe_prog6212\\cmcs_poe_prog6212\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E2CC17-E5F1-4EEF-9895-C1E0B34CDEFF}|CMCS_POE_PROG6212\\CMCS_POE_PROG6212.csproj|solutionrelative:cmcs_poe_prog6212\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E2CC17-E5F1-4EEF-9895-C1E0B34CDEFF}|CMCS_POE_PROG6212\\CMCS_POE_PROG6212.csproj|c:\\users\\sandi\\source\\repos\\cmcs_poe_prog6212\\cmcs_poe_prog6212\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32E2CC17-E5F1-4EEF-9895-C1E0B34CDEFF}|CMCS_POE_PROG6212\\CMCS_POE_PROG6212.csproj|solutionrelative:cmcs_poe_prog6212\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sandi\\source\\repos\\CMCS_POE_PROG6212\\CMCS_POE_PROG6212\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CMCS_POE_PROG6212\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sandi\\source\\repos\\CMCS_POE_PROG6212\\CMCS_POE_PROG6212\\MainWindow.xaml",
+              "RelativeToolTip": "CMCS_POE_PROG6212\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-21T04:55:11.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sandi\\source\\repos\\CMCS_POE_PROG6212\\CMCS_POE_PROG6212\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CMCS_POE_PROG6212\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sandi\\source\\repos\\CMCS_POE_PROG6212\\CMCS_POE_PROG6212\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CMCS_POE_PROG6212\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T04:55:09.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

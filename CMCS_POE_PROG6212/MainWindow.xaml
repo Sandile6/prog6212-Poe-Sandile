@@ -1,0 +1,101 @@
+﻿<Window x:Class="CMCS_POE_PROG6212.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CMCS_POE_PROG6212"
+        mc:Ignorable="d"
+        Title="Contract Monthly Claim System" Height="450" Width="600"
+        Background="#D3D3D3">
+
+    <TabControl Background="#D3D3D3">
+
+
+        <TabItem Header="Lecturer Submission" FontWeight="Bold" Background="#ED944D">
+            <Grid Margin="10,0,10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="17*"/>
+                    <ColumnDefinition Width="11*"/>
+                    <ColumnDefinition Width="12*"/>
+                    <ColumnDefinition Width="31*"/>
+                    <ColumnDefinition Width="88*"/>
+                    <ColumnDefinition Width="52*"/>
+                    <ColumnDefinition Width="29*"/>
+                    <ColumnDefinition Width="334*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" MinHeight="33.94" />
+                    <RowDefinition Height="Auto" MinHeight="20" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" MinHeight="53" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Submit Monthly Claim" FontSize="18" FontWeight="Bold" 
+                           HorizontalAlignment="Left" Margin="33,10,0,20" Width="190" 
+                           Foreground="Black" Grid.RowSpan="2" Grid.Column="5" Grid.ColumnSpan="3"/>
+
+
+                <Button Content="Upload Document" Click="UploadDocument_Click"
+                        Margin="0,149,0,-130" Grid.Row="3"
+                        Background="#0D47A1" Foreground="White" Grid.ColumnSpan="8"/>
+
+
+                <Button Content="Submit Claim" Width="150" Grid.Row="3" 
+                        HorizontalAlignment="Left" Margin="1,205,0,-185" 
+                        Click="SubmitClaim_Click" Background="#0D47A1" Foreground="White" Grid.Column="6" Grid.ColumnSpan="2"/>
+
+                <TextBlock Text="Hourly Rate:" Margin="10,82,29,-60" Grid.Row="3" FontWeight="Bold"  Foreground="Black" Grid.ColumnSpan="5"/>
+                <TextBox x:Name="txtRate" Margin="31,82,272,-52" Grid.Row="3" TextChanged="txtRate_TextChanged" Grid.Column="4" Grid.ColumnSpan="4"/>
+                <TextBlock Text="Hours Worked:" VerticalAlignment="Top" FontWeight="Bold" Margin="10,37,29,0" 
+                           Grid.Row="3" Height="16" Foreground="Black" Grid.ColumnSpan="5"/>
+                <TextBox x:Name="txtHours" Margin="31,37,272,-2" Grid.Row="3" TextChanged="txtHours_TextChanged" Grid.Column="4" Grid.ColumnSpan="4"/>
+            </Grid>
+        </TabItem>
+
+
+        <TabItem Header="Coordinator/Manager View" FontWeight="Bold" Background="#ED944D">
+            <Grid Margin="10">
+                <ListBox Name="lstClaims" Height="200" Margin="0,0,0,10"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Approve" Width="100" Margin="5" Click="ApproveClaim_Click" 
+                            Height="30" Background="#0D47A1" Foreground="White"/>
+
+                    <Button Content="Reject" Width="100" Margin="5" Click="RejectClaim_Click" 
+                            Height="31" Background="#0D47A1" Foreground="White"/>
+
+                    <Button Content="View Document" Width="100" Margin="5" Click="ViewDocument_Click" 
+                            Height="31" Background="#0D47A1" Foreground="White"/>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+
+        <TabItem Header="Reports" FontWeight="Bold" Background="#ED944D">
+            <Grid Margin="10,0,10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="17*"/>
+                    <ColumnDefinition Width="11*"/>
+                    <ColumnDefinition Width="12*"/>
+                    <ColumnDefinition Width="31*"/>
+                    <ColumnDefinition Width="88*"/>
+                    <ColumnDefinition Width="52*"/>
+                    <ColumnDefinition Width="29*"/>
+                    <ColumnDefinition Width="334*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" MinHeight="33.94" />
+                    <RowDefinition Height="Auto" MinHeight="20" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" MinHeight="53" />
+                </Grid.RowDefinitions>
+                <StackPanel/>
+                <Button Content="Generate Report" Click="GenerateReport_Click" Background="#808080" Foreground="White" Grid.Column="4" Grid.ColumnSpan="4" Margin="86,42,287,-19" Grid.Row="3"/>
+                <TextBlock Text="Generated Report Will Be Displayed Here." FontSize="18" FontWeight="Bold" 
+                           HorizontalAlignment="Left" Margin="0,10,0,39" Width="366" 
+                           Foreground="Black" Grid.RowSpan="3" Grid.Column="4" Grid.ColumnSpan="4" Grid.Row="1"/>
+            </Grid>
+        </TabItem>
+
+
+    </TabControl>
+</Window>
